@@ -1,8 +1,18 @@
 <snippet>
 	<content><![CDATA[
-function _init() end
-function _update() end
-function _draw() end
+-- main
+
+function _init()
+ frame = 0
+end
+
+function _update()
+ frame += 1
+end
+
+function _draw()
+end
+
 ]]></content>
 	<tabTrigger>main</tabTrigger>
 	<scope>source.p8</scope>
