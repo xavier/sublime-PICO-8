@@ -3,11 +3,9 @@
 -- ${1:name}
 
 function ${1:name}_init()
- frame = 0
 end
 
-function ${1:name}_update()
- frame += 1
+function ${1:name}_update(frame)
 end
 
 function ${1:name}_draw()
